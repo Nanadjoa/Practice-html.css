@@ -1,0 +1,35 @@
+.nav-layout, .footer{
+	background: #E0BAFD;
+	height: 15vh;
+	margin-bottom: 10px;
+}
+
+
+.next-layout{
+	background-color: #E0BAFD;
+	height: 30vh;
+	margin-bottom: 10px;
+}
+
+.box-layout{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+	gap: 10px;
+}
+	
+
+	.box-layout > div{
+		background-color: #E0BAFD;
+		height:30vh;
+		width: 33%;
+	}
+
+	/* mobile responsive*/
+@media only screen and (orientation: portrait){
+	.box-layout{
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+}
+}

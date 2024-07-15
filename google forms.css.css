@@ -1,0 +1,256 @@
+body{
+	background-color: rgb(227, 237, 253);
+	font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; 
+	font-size: 15px; 
+}
+
+.form-container{
+	height: 1100px;
+	width: 700px;
+	margin: auto;
+	font-size: 15px;
+}
+
+.required{
+	font-size: 15px;
+	color: rgb(217, 48, 37);
+	font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+
+.description{
+	height:240px;
+	width:600px;
+	background-color: white;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid rgb(66, 133, 244);
+	padding:25px;
+	padding-top: 0;
+	
+}
+
+.title{
+	font-size: 24pt;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+.instructions, .accounts{
+	border-bottom: 1px solid #DCD7D7;
+}
+
+	.Switch{
+	text-decoration: none;
+	color: rgb(26, 115, 232);
+}
+
+.email-div, .name-div, .number-div, .location-div, .school-div, .why-div, .how-div{
+	height:100px;
+	width: 650px;
+	background-color: white;
+	margin: 15px;
+	border-radius: 8px;
+	padding-top: 20px;
+}	
+
+.fees-div,.sponsor-div,.kin-div{
+	height:170px;
+	width: 650px;
+	background-color: white;
+	margin: 15px;
+	border-radius: 8px;
+	padding-top: 20px;
+
+}
+
+ .email, .name,.number-l,.next,.fees,.sponsor, .location,.school,.why,.how{
+ 	padding-top: 20px;
+ 	padding-left: 25px;
+ 	padding-bottom: 25px;
+ 	font-size: 15px;
+ }
+
+ .kin-p{
+ 	padding-right: 25px;
+ 	padding-left: 25px;
+ 	font-size: 15px;
+ }
+
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #DCD7D7;
+	padding-top: 5px;
+ 	font-size: 15px;
+}
+
+.radio-div{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.spc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 25px;
+	flex-wrap: wrap;
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 630px;
+}
+
+.responses-div{
+	padding-top: 15px;
+	padding-left: 15px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, .54);
+}
+
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: rgb(0, 116, 237);
+	border-radius: 4px;
+	font-size: 14px;
+	letter-spacing: .25px;
+	font-weight: 540;
+	border: none;
+	padding: 15px, 15px, 15px;
+	color: white;
+	margin-right: 14px;
+	cursor: pointer;
+
+}
+
+.btn:hover{
+	opacity: 0.9;
+	transition: 1s;
+}
+
+.submit-b{
+display: flex;
+padding-bottom: 10px;
+
+}
+
+.clear{
+text-decoration: none;
+cursor: pointer;
+color: rgb(0, 116, 237);
+
+}
+
+.page-1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.bar{
+	background-color: rgb(52, 168, 83);
+	border-radius: 40px;
+	width: 100%;
+	height: 10px;
+	border-radius: none;
+	border: none;
+    outline: 0;
+
+}
+
+.bar-div{
+	background: #eee;
+    border-radius: 40px;
+    width: 184px;
+    height: 10px;
+
+}
+
+.page{
+	 font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.never{
+	
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, .66);
+	padding-left:15px;
+	}
+
+.rpt-container{
+	color: rgba(0, 0, 0, 0.66);
+	font: 400 12px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    margin: 16px 0;
+    padding: 0 16px;
+    text-align: center;
+    	}
+
+	.recap {
+		display: block;
+		margin: 24px;
+		text-align: center;
+		cursor: pointer;
+		padding-top: 20px;
+	
+	}
+
+.PT{
+	display: flex;
+    font-size: 10px;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.66);
+	font: 400 Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	gap: 6px;
+	cursor: pointer;
+	padding-left: 8px;
+	padding-top: 0;
+}
+
+.endorsed-div{
+	display: flex;
+	color: rgba(0, 0, 0, 0.66);
+	font: 400 Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	text-align: center;
+
+}
+
+p a{
+	color: rgba(0, 0, 0, 0.66); 
+	font: 400 Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+.closing-div{
+	margin: 24px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+}
+.forms{
+	font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-size: 22.1px;
+    position: relative;
+    top: -6px;
+    color:black;
+}
+
